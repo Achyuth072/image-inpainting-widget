@@ -1,8 +1,9 @@
-# React + Vite
+# Image Inpainting Widget
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Learning to create a simple image inpainting widget where users can upload an image, draw a mask, and export the original image with the mask.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Upload an image (JPEG/PNG).
+- Draw a mask on the image using a brush tool.
+- Export the original image and mask as a pair.
