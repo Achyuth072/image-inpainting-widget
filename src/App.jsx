@@ -53,21 +53,14 @@ function App() {
   return (
     <div className="App">
       <h1>Image Inpainting Widget</h1>
-      <input
-        type="file"
-        accept="image/*"
-        onChange={handleImageUpload}
-        style={{ marginBottom: '20px' }}
-      />
+      <div className='upload-container'>
+        <input type="file"accept="image/*"onChange={handleImageUpload}/>
+      </div>
 
       {image && (
-        <div>
+        <div className='uploaded-image'>
           <h3>Uploaded Image</h3>
-          <img
-            src={image}
-            alt="Uploaded"
-            style={{ maxWidth: '100%', maxHeight: '20px' }}
-          />
+          <img src={image} alt="Uploaded"/>
         </div>
       )}
 
