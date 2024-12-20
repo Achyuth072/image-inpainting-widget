@@ -6,7 +6,7 @@ Learning to create a simple image inpainting widget where users can upload an im
 
 - [x] Upload an image (JPEG/PNG).
 - [ ] Draw a mask on the image using a brush tool.
-- [ ]Export the original image and mask as a pair.
+- [ ] Export the original image and mask as a pair.
 
 ## Installation
 
